@@ -4,7 +4,7 @@
 .home-video-wrap{width:100%;height:auto;overflow:hidden;background:#000;display:flex;justify-content:flex-start;align-items:flex-start;}
 .home-video-wrap .lt-item{position:relative;width:50%;height:auto;overflow:Hidden;}
 .home-video-wrap .dummy{width:100%;float:left;}
-.home-video-wrap .cont{width:100%;position:absolute;left:0;top:0;height:100%;overflow:Hidden;text-align:center;display:flex;justify-content:center;align-items:center;color:#fff;flex-direction:column;font-weight:200;line-height:40px;font-size:26px}
+.home-video-wrap .cont{width:100%;position:absolute;left:0;top:0;height:100%;overflow:Hidden;text-align:center;display:flex;justify-content:center;align-items:center;color:#fff;flex-direction:column;font-weight:200;line-height:40px;font-size:32px}
 .home-video-wrap .cont strong{font-weight: bold;}
 .home-video-wrap .cont span{padding-top:7px;display:block;font-size:16px;color:#a4a4a4;font-weight:500;}
 .home-video-wrap a{width:143px;height:40px;font-size:20px;color:#fff;font-weight:400;display:flex;justify-content:flex-start;align-items:flex-start;position:absolute;right:40px;bottom:40px;background:url(img/home/ico-more-arr-white.svg) no-repeat left bottom;background-size:contain}
@@ -32,16 +32,16 @@
 .home-benefit-wrap .middle-item dl dt strong{color:white; font-weight: bold;}
 .home-benefit-wrap .bottom-item{background:#000;width:100%;height:auto;overflow:hidden;padding-top:44px;padding-bottom:88px;margin-top:-1px}
 .home-benefit-wrap .bottom-item .stit{width:100%;height:auto;overflow:hidden;text-align:center;font-size:36px;color:#fff;font-weight:500;}
-.home-benefit-wrap .bottom-item .stit strong{background:url(img/home/bg-line.jpg) no-repeat left bottom;display:inline-block;position:relative;font-size:36px;color:#fff;font-weight:500;}
+.home-benefit-wrap .bottom-item .stit strong{background:url(img/home/bg-line.jpg) no-repeat left bottom;display:inline-block;position:relative;font-size:36px;color:#fff;font-weight:700;letter-spacing: 2px;}
 
 .home-benefit-wrap .bottom-item .sdesc{width:100%;height:auto;overflow:hidden;text-align:center;margin-top:8px;font-size:16px;color:#a4a4a4;font-weight:500;}
 .home-benefit-wrap .bottom-item ul{display:flex;justify-content:center;align-items:center;width:100%;height:auto;overflow:hidden;margin-top:64px;}
 .home-benefit-wrap .bottom-item ul li{position:relative;width:370px;height:370px;overflow:hidden;border-radius:7px;margin:0 27px;}
 .home-benefit-wrap .bottom-item ul li:nth-child(1){background-image: linear-gradient(143deg, #7142e3 -3%, #ee6bff 100%);}
 .home-benefit-wrap .bottom-item ul li:nth-child(2){background-image: linear-gradient(143deg, #e085ff -3%, #ff685c 100%);}
-.home-benefit-wrap .bottom-item ul li .cont{letter-spacing:-2px;width:calc( 100% - 56px );margin:32px auto 0 auto;font-size:24px;color:#fff;font-weight:500;}
-.home-benefit-wrap .bottom-item ul li .cont span{display:block;font-size:16px;color:#fff;font-weight:bold;}
-.home-benefit-wrap .bottom-item ul li .price{position:absolute;right:28px;bottom:34px;font-size:40px;color:#fff;font-weight:800;}
+.home-benefit-wrap .bottom-item ul li .cont{width:calc( 100% - 56px );margin:32px auto 0 auto;font-size:24px;color:#fff;font-weight:700;}
+.home-benefit-wrap .bottom-item ul li .cont span{display:block;font-size:16px;color:#fff;margin-top:10px;}
+.home-benefit-wrap .bottom-item ul li .price{position:absolute;right:28px;bottom:34px;font-size:40px;color:#fff;font-weight:700;}
 
 .home-active-wrap{width:100%;height:auto;overflow:hidden;}
 .home-active-wrap .tit{padding:64px 0 48px 0;font-size:36px;color:#000;font-weight:bold;width:calc( 100% - 40px );height:auto;overflow:hidden;margin:0 auto;max-width:1280px;}
@@ -51,8 +51,8 @@
 .home-active-wrap .swiper-container .swiper-slide a{width:100%;display:block;height:auto;overflow:Hidden;}
 .home-active-wrap .swiper-container .swiper-slide a .pic{width:100%;height:auto;overflow:Hidden;background-size:cover !important;}
 .home-active-wrap .swiper-container .swiper-slide a .pic img{width:100%;float:left;}
-.home-active-wrap .swiper-container .swiper-slide a .stit{margin-top:24px;font-size:32px;color:#000;font-weight:500;width:100%;height:auto;overflow:Hidden;}
-.home-active-wrap .swiper-container .swiper-slide a .sdesc{margin-top:4px;font-size:24px;color:#000;font-weight:500;width:100%;height:196px;overflow:Hidden;}
+.home-active-wrap .swiper-container .swiper-slide a .stit{margin-top:24px;font-size:26px;color:#000;font-weight:700;width:100%;height:auto;overflow:Hidden;}
+.home-active-wrap .swiper-container .swiper-slide a .sdesc{margin-top:4px;font-size:22px;color:#000;font-weight:500;width:100%;height:196px;overflow:Hidden;}
 
 .home-why-wrap{width:100%;height:auto;overflow:hidden;background:#000;padding-bottom:88px;}
 .home-why-wrap .header-item{width:1316px;height:182px;overflow:hidden;margin:0 auto;display:flex;justify-content:space-between;align-items:center;}
@@ -61,11 +61,11 @@
 .home-why-wrap .header-item a:active{color:#9D05DA;background:url(img/home/ico-more-arr-purple.svg) no-repeat left bottom;}
 .home-why-wrap .home-why-list{width:1316px;padding:48px;height:auto;overflow:hidden;border-radius:12px;background:#fff;margin:0 auto;}
 .home-why-wrap .home-why-list ul{width:calc( 100% + 34px );height:auto;overflow:hidden;margin-left:-17px;}
-.home-why-wrap .home-why-list ul li{width:calc( 100% / 3 - 34px );margin:0 17px;height:410px;overflow:Hidden;float:left;}
+.home-why-wrap .home-why-list ul li{width:calc( 100% / 3 - 34px );margin:0 17px;height:470px;overflow:Hidden;float:left;}
 .home-why-wrap .home-why-list ul li a{height:auto;overflow:Hidden;width:100%;display:block;}
 .home-why-wrap .home-why-list ul li a .pic{width:100%;height:auto;overflow:hidden;}
 .home-why-wrap .home-why-list ul li a .pic img{width:100%;float:left;}
-.home-why-wrap .home-why-list ul li a .stit{letter-spacing:-1px;width:100%;height:auto;overflow:hidden;margin-top:12px;font-size:24px;color:#000;font-weight:500;}
+.home-why-wrap .home-why-list ul li a .stit{letter-spacing:-1px;width:100%;height:auto;overflow:hidden;margin-top:12px;font-size:24px;color:#000;font-weight:700;}
 .home-why-wrap .home-why-list ul li a .sdesc{letter-spacing:-1px;width:100%;height:auto;overflow:hidden;margin-top:4px;font-size:20px;color:#000;font-weight:500;}
 
 .home-sens-wrap{background:#fff;width:100%;height:auto;overflow:hidden;padding-bottom:88px;}
@@ -103,7 +103,7 @@
 .home-tip-wrap .swiper-container .swiper-slide a .sdesc{margin-top:4px;font-size:24px;color:#000;font-weight:500;width:100%;height:268px;overflow:Hidden;}
 
 .select-wrap{width:300px;margin:10px auto 0 auto;position:relative;display:block;}
-.select-wrap>a{margin:0 auto;text-decoration:underline;display:flex;justify-content:center;align-items:center;width:100%;line-height:46px;height:46px;overflow:hidden;border-radius:2px;font-size:30px;color:#fff;position:relative;text-overflow:ellipsis; white-space:nowrap;word-wrap:normal;}
+.select-wrap>a{margin:0 auto;text-decoration:underline;display:flex;justify-content:center;align-items:center;width:100%;line-height:46px;height:46px;overflow:hidden;border-radius:2px;font-weight:500;font-size:26px;color:#fff;position:relative;text-overflow:ellipsis; white-space:nowrap;word-wrap:normal;}
 .select-wrap>a:after{margin-left:9px;margin-top:3px;content:"";width:22px;height:10px;overflow:hidden;display:flex;background:url(img/home/ico-rv-down.svg) no-repeat;}
 .select-wrap>a.on:after{transform:rotate(180deg)}
 .select-wrap .select-result{display:none;width:calc( 100% - 2px );height:auto;overflow:hidden;border:1px solid rgba(255,255,255,.4);position:absolute;left:0;top:46px;background:#000;overflow-y:auto;}
@@ -195,7 +195,7 @@
     .home-why-wrap .header-item .tit{font-size:20px;}
     .home-why-wrap .header-item a{display:none;}
     .home-why-wrap .home-why-list{background:transparent;padding:0 20px;width:100%;}
-    .home-why-wrap .home-why-list ul{width:100%;margin:0;}
+    .home-why-wrap .home-why-list ul{width:100%;margin:0;padding-top: 12px;}
     .home-why-wrap .home-why-list ul li{width:100%;margin:0 0 18px 0;height:auto;padding-bottom:20px;}
     .home-why-wrap .home-why-list ul li a .stit{color:#fff;font-size:18px;}
     .home-why-wrap .home-why-list ul li a .sdesc{line-height:1.5em;color:#fff;font-size:14px;}

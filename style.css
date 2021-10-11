@@ -21,6 +21,10 @@ body {
 .font-bold{font-family:'Montserrat'; color:#000; font-weight:700;}
 .font-black{font-family:'Montserrat'; color:#000; font-weight:900;}
 
+.font-noto-medium{font-family:'Noto Sans KR'; color:#000; font-weight:500;}
+.font-noto-bold{font-family:'Noto Sans KR'; color:#000; font-weight:700;}
+.font-noto-black{font-family:'Noto Sans KR'; color:#000; font-weight:900;}
+
 /*
 1. main 은 gnb-body-footer 순 세로정렬
 2. gnb 안은 left / right 구성
