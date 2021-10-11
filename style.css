@@ -1,7 +1,7 @@
 *, *::after, *::before {}
 
 html, body{
-  font-family: 'Noto Sans KR';
+  font-family: 'Montserrat';
   font-size: 10px; width: 100vw; height: 100vh;
   -ms-overflow-style: none; // IE에서 스크롤바 감춤
   &::-webkit-scrollbar {
@@ -10,16 +10,16 @@ html, body{
   }
 
 @font-face {
-font-family: 'Noto Sans KR', sans-serif;}
+font-family: 'Montserrat', sans-serif;}
 
 body {
   -webkit-overflow-scrolling:touch;
 }
 
 /*폰트부터 정의*/
-.font-medium{font-family:'Noto Sans KR'; color:#000; font-weight:500;}
-.font-bold{font-family:'Noto Sans KR'; color:#000; font-weight:700;}
-.font-black{font-family:'Noto Sans KR'; color:#000; font-weight:900;}
+.font-medium{font-family:'Montserrat'; color:#000; font-weight:500;}
+.font-bold{font-family:'Montserrat'; color:#000; font-weight:700;}
+.font-black{font-family:'Montserrat'; color:#000; font-weight:900;}
 
 /*
 1. main 은 gnb-body-footer 순 세로정렬
